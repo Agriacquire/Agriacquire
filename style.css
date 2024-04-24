@@ -70,3 +70,7 @@ nav button:hover{
     margin-top: 20%;
     padding-left: 6%;
 }
+.home .content{
+    background: rgba(255, 255, 255, 0.1);
+    
+}
