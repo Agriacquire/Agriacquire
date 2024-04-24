@@ -9,7 +9,7 @@ nav{
     justify-content: space-between;
     display: flex;
     background: rgb(8, 247, 8);
-    position: fixed;
+    position: static;
     padding: 10px;
     align-items: center;
     width: 100%;
@@ -33,4 +33,40 @@ nav button:hover{
     background: black;
     color: rgb(8, 247, 8);
 
+}
+.home{
+    background-image: url("/Media/gonzalo-facello-rghwncQ44l4-unsplash.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    padding: 20px 1%;
+    width: 100%;
+
+    
+}
+.home p{
+    margin-top: 5px;
+    width: 60%;
+}
+.home button{
+    color: black;
+    background: rgb(1, 252, 43);
+    border-style: none;
+    padding: 12px;
+    border-radius: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: large;
+}
+.home button:hover{
+    color: rgb(1, 252, 43);
+    background: black;
+    cursor: pointer;
+}
+.home h1, p, button{
+    margin-left: 10%;
+}
+.home .content{
+    margin-top: 20%;
+    padding-left: 6%;
 }
